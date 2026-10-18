@@ -52,4 +52,3 @@ if st.button("Predict", type="primary", use_container_width=True):
         st.success("### NO HEART DISEASE (No)")
     with st.expander("Encoded feature vector"):
         st.dataframe(encoded, hide_index=True)
-PYEOF
